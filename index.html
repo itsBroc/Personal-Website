@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/5496582c4f.js" crossorigin="anonymous"></script>
+
+    <title>Broc's personal portfolio</title>
+
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo1.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="#Home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#Projects"><i class="fa-solid fa-code"></i>Projects</a></li>
+                <li><a href="#Skills"><i class="fa-solid fa-gear"></i>Skills</a></li>
+                <li><a href="#Education"><i class="fa-solid fa-school"></i>Education</a></li>
+                <li><a href="#Contact"><i class="fa-solid fa-envelope"></i>Contact Me</a></li>
+                <img src="images/moon.png" alt="moon" id="icon">
+            </ul>
+        </nav>
+        <main>
+            <section id="home">
+                <div class="info">
+                    <img src="images/profile.png" id="pfp" alt="pfp">
+                    <h1>Hi, i'm <span>Broc</span></h1>
+                    <p>I am an Australian Software Engineering Student currently in 2nd year.</p>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/itsBroc">
+                        <img src="images/github.png" alt="Github Logo" class="social-logo">Github</a>
+                    <a href="https://www.linkedin.com/in/broc-geronimi-317a722a7/">
+                        <img src="images/linkedin.png" alt="LinkedIn Logo" class="social-logo">LinkedIn</a>
+                    <a href="https://open.spotify.com/user/hotmountain?si=6dd947a43e7b4f42">
+                        <img src="images/Spotify.webp" alt="Spotify Logo" class="social-logo">Spotify</a>
+                    </div>
+            </section>
+
+            <section id="Projects" class="Projects">
+                <h2>Personal <span>Projects</span></h2>
+                <div class="project-row" data-aos="fade-up">
+                    <div class="project-left"> 
+                        <img src="images/websiteimg1.PNG" alt="website">
+                    </div>
+                    <div class="project-right"> 
+                        <h3>Personal portfolio website</h3>
+                            <ul class="tech-stack-list">
+                                <p><b>Made with: </b></p>
+                                <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+                                <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+                                <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+                            </ul>
+                            <p>The portfolio website that highlights my skills, projects and 
+                                <br>experience as a Software Engineering student. Created 
+                                <br>using HTML and CSS to structure and style the website, 
+                                <br>alongside JavaScript for functionality</p>
+                    </div>
+                </div>
+
+                <div class="project-row" data-aos="fade-up">
+                    <div class="project-left"> 
+                        <img src="images/travelagencyimg1.PNG" alt="website">
+                    </div>
+                    <div class="project-right"> 
+                        <h3>Travel Agency Application</h3>
+                            <ul class="tech-stack-list">
+                                <p><b>Made with: </b></p>
+                                <li><span class="iconify" data-icon="devicon:java" data-inline="false"></span></li>
+                                <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+                            </ul>
+                            <p>A desktop application that was developed to allow users to 
+                                <br>to plan and book trips that involved numerous destinations 
+                                <br>and flights to those destinations. This was programmed
+                                <br>in Java for the backend and JavaFX for the UI, using
+                                <br>the MVC structure to link the two. CSS was also used for
+                                <br>styling.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Skills" class="skills">
+                <div class="container" data-aos="fade-in">
+                    <h2>Technical<span> Skills</span></h2>
+                    <ul class="skills-list">
+                        <li><span class="iconify" data-icon="devicon:java" data-inline="false" data-width="90px" data-height="90px"></span><span>Java</span></li>  
+                        <li><span class="iconify" data-icon="logos:python" data-inline="false" data-width="90px" data-height="90px"></span><span>Python</span></li>
+                        <li><span class="iconify" data-icon="vscode-icons:file-type-cpp2" data-inline="false" data-width="90px" data-height="90px"></span><span class="text-center">C++</span></li>
+                        <li><span class="iconify" data-icon="logos:javascript" data-inline="false" data-width="90px" data-height="90px"></span><span>JavaScript</span></li>
+                        <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false" data-width="90px" data-height="90px"></span><span>HTML</span></li>
+                        <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false" data-width="90px" data-height="90px"></span><span>CSS</span></li>
+                        <li><span class="iconify" data-icon="logos:git-icon" data-inline="false" data-width="90px" data-height="90px"></span><span>Git</span></li>
+                        <li><span class="iconify" data-icon="vscode-icons:file-type-sql" data-inline="false" data-width="90px" data-height="90px"></span><span>SQL</span></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="Education" class="education">
+                <div class ="container">
+                    <h2 data-aos="fade-in">My <span>Education</span></h2>
+                    <div class="education-card" data-aos="fade-up">
+                        <div class="education-card-column">
+                            <div class="education-left">
+                                <img id="uts-light" src="images/uts1.png" alt="uts light">
+                                <img id="uts-dark" src="images/uts2.png" alt="uts dark" style="display:none;">
+                            </div>
+
+                            <div class="education-right">
+                                <h3>2023 - present</h3>
+                                <h3>University of Technology Sydney
+                                <br>Bachelor of Software Engineering (Hons.)</h3>
+                                <ul>
+                                    <li>Current GPA 6.5/7</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Contact" class="">
+                
+            </section>
+        </main>
+    </div>
+
+        <script>
+
+            var icon = document.getElementById("icon");
+            var utsLight = document.getElementById("uts-light");
+            var utsDark = document.getElementById("uts-dark");
+
+            icon.onclick = function(event){
+                event.stopPropagation();
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src = "images/sun.png"
+                    utsLight.style.display = "none";
+                    utsDark.style.display = "block";
+                }else{
+                    icon.src = "images/moon.png"
+                    utsLight.style.display = "block";
+                    utsDark.style.display = "none";
+                }
+
+            }
+        </script>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        // Smooth scrolling when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+        </script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>   
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

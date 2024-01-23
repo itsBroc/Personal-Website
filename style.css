@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Work+Sans&display=swap');
+
+body{
+    background-color: var(--primary-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: var(--primary-color);
+    font-family: 'PT Sans', sans-serif;
+    font-size: large;
+    position: relative;
+}
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0 40px 0;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+
+
+
+.logo {
+    float: left;
+    width: 120px;
+}
+
+nav ul li{
+    display: inline-block; 
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+nav ul li a:hover{
+    color: #5496EF;
+}
+
+nav ul li i {
+  margin-right: 10px;
+}
+
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #212121;
+}
+.dark-theme{
+    --primary-color: #212121;
+    --secondary-color:#ffffff;  
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+    margin-left: 20px;
+    vertical-align: -8px;
+}
+
+#pfp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 5px solid var(--secondary-color);
+    border-radius: 50%;
+}
+
+.info{
+    text-align: center;
+    margin: 50px;
+}
+
+.info h1{
+    color: var(--secondary-color);
+}
+
+.info img{
+    margin-bottom: 80px;
+}
+
+.info p{
+    margin-top: 16px;
+    color: var(--secondary-color);
+}
+
+span{
+    color: #5496EF;
+}
+
+.socials{
+    text-align: center;
+}
+
+.socials a{
+    background: var(--secondary-color);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: var(--primary-color);
+    display: inline-block;
+    margin: 75px 8px 80px 0;
+    border-radius: 5px;
+}
+
+.socials .social-logo{
+    margin-right: 10px;
+    width: 17px;
+    vertical-align: -4px;
+}
+
+/*@keyframes gradientAnimation {
+    0% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+.moving-gradient{
+    display:inline-block;
+    background: linear-gradient(90deg, #7F7FD5, #91EAE4);
+    background-size: 200% 100%;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradientAnimation 3s linear infinite;
+} */
+
+.Projects {
+    background: var(--primary-color);
+    padding: 3rem 0;
+    
+  }
+
+.Projects h2{
+    color: var(--secondary-color);
+}
+
+.Projects h2,
+.Projects h2 span {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.Projects .center {
+  text-align: center;
+}
+
+.project-row {
+    display: flex;
+    margin-bottom: 5rem;
+  }
+  
+.project-row .project-left {
+    width: 45%;
+    margin-right: 3rem;
+    margin-left: 100px;
+  }
+
+.project-row .project-left img {
+    width: 100%;
+    border: 1px solid lightgray;
+  }
+
+.project-row .project-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--secondary-color);
+  }
+  
+  .project-row .project-right h3 {
+    font-size: 1.25rem;
+  }
+
+  .project-row .project-right p {
+    line-height: 1.75;
+  }
+  
+  .project-row .project-right .tech-stack-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 1rem;
+  }
+  
+  .project-row .project-right .tech-stack-list p {
+    margin-right: 1rem;
+  }
+  
+  .project-row .project-right .tech-stack-list li {
+    margin-right: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .project-row .project-right .project-links {
+    margin-top: 1rem;
+  }
+  
+  @media screen and (max-width: 860px) {
+    .projects .project-row {
+      display: flex;
+      margin-bottom: 3rem;
+      flex-direction: column;
+    }
+    .projects .project-row .project-left {
+        width: 100%;
+      }
+    
+      .projects .project-row .project-right {
+        width: 100%;
+      }
+    }
+
+.skills {
+  padding: 3rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.skills h2,
+.skills h2 span {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.skills h2{
+  color: var(--secondary-color);
+}
+
+.skills{
+  padding: 6rem 0;
+}
+
+.skills-list{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.skills .skills-list li {
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.skills .skills-list li span{
+  margin-top: 10px;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 420px) {
+  .skills .skills-list li {
+    margin: 1rem 0.75rem;
+  }
+}
+
+.skills .skills-list li:hover {
+  transform: scale(1.3);
+}
+
+.education {
+  background: var(--primary-color);
+  padding-bottom: 3rem;
+}
+
+.education .container {
+  max-width: 800px;
+  margin-left: 550px;
+}
+
+.education .container h2{
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.education .container .education-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  box-shadow: 0 0.15rem 0.6rem var(--secondary-color);
+  padding: 40px;
+  border-radius: 3px;
+
+}
+
+.education .container .education-card > *:last-child {
+  margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+  .education .container .education-card {
+    padding: 20px;
+  }
+}
+
+.education .container .education-card .education-card-column {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.education .container .education-card .education-card-column .education-left {
+  flex: 0 0 20%;
+}
+
+.education .container .education-card .education-card-column .education-left img {
+  width: 100%;
+}
+
+.education .container .education-card .education-card-column .education-right {
+  flex: 0 0 80%;
+  padding-left: 1.5rem;
+  color: var(--secondary-color);
+}
+.education .container .education-card .education-card-column .education-right ul li{
+  list-style: none;
+}
+
+.education .container .education-card .education-card-column .education-right > * {
+  margin: 0.25rem 0;
+}
+
