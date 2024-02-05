@@ -351,14 +351,45 @@ span{
 .education .container .education-card .education-card-column .education-right > * {
   margin: 0.25rem 0;
 }
+.contact {
+  background-color: var(--primary-color);
+  padding: 3rem 0;
+} 
 
 .contact .container h2{
   color: var(--secondary-color);
   text-align: center;
   margin-bottom: 3rem;
+} 
+
+.contact .card-container{
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.contact {
+.contact .card {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: var(--primary-color);
-  padding: 3rem 0;
+  box-shadow: 0 0.15rem 0.6rem var(--secondary-color);
+  padding: 40px;
+  border-radius: 3px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
+
+
+.contact .card i{
+  color: #5496EF;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
