@@ -295,8 +295,9 @@ span{
 }
 
 .education .container {
-  max-width: 800px;
-  margin-left: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .education .container h2{
@@ -306,6 +307,9 @@ span{
 }
 
 .education .container .education-card {
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -313,7 +317,6 @@ span{
   box-shadow: 0 0.15rem 0.6rem var(--secondary-color);
   padding: 40px;
   border-radius: 3px;
-
 }
 
 .education .container .education-card > *:last-child {
@@ -326,31 +329,34 @@ span{
   }
 }
 
-.education .container .education-card .education-card-column {
+.education .education-card-column {
   display: flex;
   margin-bottom: 10px;
 }
 
-.education .container .education-card .education-card-column .education-left {
+.education .education-left {
   flex: 0 0 20%;
 }
 
-.education .container .education-card .education-card-column .education-left img {
+.education .education-left img {
   width: 100%;
 }
 
-.education .container .education-card .education-card-column .education-right {
+.education .education-right {
   flex: 0 0 80%;
   padding-left: 1.5rem;
   color: var(--secondary-color);
 }
-.education .container .education-card .education-card-column .education-right ul li{
+.education .education-right ul li{
   list-style: none;
 }
 
-.education .container .education-card .education-card-column .education-right > * {
+.education .education-right > * {
   margin: 0.25rem 0;
 }
+
+
+
 .contact {
   background-color: var(--primary-color);
   padding: 3rem 0;
@@ -384,12 +390,13 @@ span{
   margin-right: 30px;
 }
 
-
 .contact .card i{
   color: #5496EF;
   display: flex;
   justify-content: center;
-  
+  font-size: 2rem;
 }
+
+
 
 
