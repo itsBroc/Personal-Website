@@ -55,12 +55,14 @@ nav ul li i {
 
 :root{
     --primary-color: #ffffff;
-    --secondary-color: #212121;
+    --secondary-color: #141414;
 }
 .dark-theme{
-    --primary-color: #212121;
+    --primary-color: #141414;
     --secondary-color:#ffffff;  
 }
+
+
 
 #icon{
     width: 30px;
@@ -314,7 +316,7 @@ span{
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--primary-color);
-  box-shadow: 0 0.15rem 0.6rem var(--secondary-color);
+  box-shadow: 0 0.15rem 0.4rem var(--secondary-color);
   padding: 40px;
   border-radius: 3px;
 }
@@ -377,26 +379,38 @@ span{
 }
 
 .contact .card {
-  padding-left: 50px;
-  padding-right: 50px;
+  flex: 1;
+  width: 200px;
+  height: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center; 
   background-color: var(--primary-color);
-  box-shadow: 0 0.15rem 0.6rem var(--secondary-color);
+  box-shadow: 0 0.15rem 0.45rem var(--secondary-color);
   padding: 40px;
   border-radius: 3px;
   margin-left: 30px;
   margin-right: 30px;
+  text-align: center;
 }
 
 .contact .card i{
   color: #5496EF;
   display: flex;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
+
+.contact .card a{
+  text-decoration: none;
+}
+
+.contact .card h3{
+color: var(--secondary-color);
+margin-top: 6px;
+}
 
 
 
