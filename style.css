@@ -347,7 +347,7 @@ span{
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--primary-color);
-  box-shadow: 0 0.15rem 0.4rem var(--secondary-color);
+  box-shadow: 0 0.15rem 0.35rem var(--secondary-color);
   padding: 40px;
   border-radius: 3px;
 }
